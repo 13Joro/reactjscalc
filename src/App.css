@@ -1,38 +1,56 @@
-.App {
+.calculator {
+  max-width: 250px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  left: 25px;
+  right: 25px;
+  top: 25px;
+}
+
+.head {
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.display {
+  font-size: 1.5em;
+  text-align: right;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buttons button {
+  font-size: 1.2em;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.buttons button:hover {
+  background-color: #ddd;
 }
 
-.App-link {
-  color: #61dafb;
+/* App.css */
+
+.name-button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff; /* Change to your preferred color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name-button:hover {
+  background-color: #0056b3; /* Change to your preferred color on hover */
 }
+
