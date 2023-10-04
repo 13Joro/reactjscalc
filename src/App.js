@@ -29,7 +29,7 @@ function App() {
   };
   return (
     <div className="calculator">
-      <h1 className='head' >Kervin Amiel Josh K. Canlas</h1>
+      <h1 className='head' >Calculator of Kervin Amiel Josh Canlas - IT3A</h1>
       <div className="display">{display}</div>
       <div className="buttons">
         <button onClick={() => handleButtonClick('7')}>7</button>
